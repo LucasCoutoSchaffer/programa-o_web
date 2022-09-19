@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Couto</title>
+</head>
+<body>
+    <P><i> ITALICO </i></P>
+    <p><n> NEGRITO </n></p>
+    <p><em>ENFASE</em></p>
+    <P><MARK>texto marcado</MARK></P>
+    <p><big>GRANDE,</big> <small> PEQUENO</small></p>
+    <p><s>DELETADO</s></p>
+    <p><u>TEXTO SUBLINHADO</u></p>
+    <p>H<suB>2</suB>O</p>
+</body>
+</html>
