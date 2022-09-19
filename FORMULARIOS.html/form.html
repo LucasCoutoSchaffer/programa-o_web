@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ><link rel="stylesheet" type="text/css" href="forms.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset class="grupo">
+            <h1 id="titulo">Cadastro</h1><br>
+            <p id="Stitulo"><strong>Complete com suas informações</strong></p><br><br><br>
+            <div>
+                <label><strong>Nome:</strong></label>
+                <input type="text" name="Nome" id="Pnome" placeholder="Ex: João Pedro" required><br><br>
+                <label for="Snome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="Sobrenome" id="Snome" placeholder="Ex: Berri Figueiredo" required><br><br>
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" name="email" id="email" placeholder="Ex: jpberri@hotmail.com" required><br><br>
+                <label for="telefone"><strong>Telefone:</strong></label>
+                <input type="number" name="Telefone" id="telefone"  placeholder="Ex: (00)00000-0000" required><br><br>   
+            </div>
+        </fieldset>
+            <div>
+                <br>
+                <label>
+                    <a href="https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd" target="_blank" class="link">Termos e condições</a><br><br>
+                </label>
+                <label>
+                    <input type="radio" name="termos" value="sim" required><strong> Você concorda com nossos termos de uso e políticas de privacidade?</strong><br>
+                </label>
+                <label>
+                    <input type="radio" name="ofertas" value="sim"><strong> Deseja receber atualizações de notícias, eventos e ofertas?</strong><br><br><br>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <button class="botão" type="submit">ENVIAR</button>
+                </label>
+            </div>
+
+    </form>
+
+</body>
+</html>
