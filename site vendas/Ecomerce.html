@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* MARGEM */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    } 
+    /* FOOTER (BACKGROUND E TAMANHO) */
+    footer {
+      background-color: black;
+      padding: 20px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  .link{
+    color: #646464
+  }
+  .container{
+    color: black;
+    
+  }
+  
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">                        
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="http://127.0.0.1:5500/Ecomerce.html">Home</a></li>
+        <li class="active"><a href="https://br.puma.com/lancamentos.html">LANÇAMENTOS</a></li>
+        <li class="active"><a href="https://br.puma.com/homens.html">HOMENS</a></li>
+        <li class="active"><a href="https://br.puma.com/mulheres.html">MULHERES</a></li>
+        <li class="active"><a href="https://br.puma.com/kids.html">INFANTIL</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href=""><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- SETAS -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- SLIDES -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt68e9e59c74ee4736/6308d8161bfce1470e8579c9/palmeiras_3.jpg?format=jpg" alt="Image">
+        <div class="carousel-caption">
+          <a href="https://br.puma.com/camisa-palmeiras-third-2022-masculina-769941-01.html?_sgm_campaign=scn_8ed80c1412000&_sgm_source=769941_01&_sgm_action=click" class="btn btn-warning" role="button">SAIBA MAIS</a>
+          <h3><strong>VERDE É TUDO</strong></h3>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://www.ocarafashion.com/wp-content/uploads/2021/01/neymar-puma-Future-Z-1.2.jpg" alt="Image">
+        <div class="carousel-caption">
+          <a href="https://br.puma.com/colecoes/select/neymar-jr.html" class="btn btn-warning" role="button">CONHEÇA A COLEÇÃO</a>
+          <h3><strong>UMA ODE AO ESTILO BRASILEIRO</strong></h3>
+        </div>      
+      </div>
+    </div>
+    <!-- CONTROLES -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+    <!-- CONTAINER SM -->
+<div class="container text-center">    
+  <h3><STRONG>COLEÇÃO TRC BLAZE</STRONG></h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/376582/06/sv01/fnd/BRA/w/250/h/250/bg/255,255,255/w/1000/h/1000/fmt/png" class="img-responsive" style="width:100%" alt="Image">
+      <p>TÊNIS TRC BLAZE COURT BASKETBALL</p><br>
+      <h4><STRONG>R$799,90</STRONG></h4>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/377396/01/sv01/fnd/BRA/w/250/h/250/bg/255,255,255/w/1000/h/1000/fmt/png" class="img-responsive" style="width:100%" alt="Image">
+      <p>TÊNIS TRC BLAZE COURT LAVA BASKETBALL</p><br>   
+      <h4><strong>R$799,90</strong></h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/376637/01/sv01/fnd/BRA/w/250/h/250/bg/255,255,255/w/1000/h/1000/fmt/png" class="img-responsive" style="width:97%" alt="Image">
+        <p>TÊNIS TRC BLAZE COURT BLACK FIVES BASKETBALL</p><br>
+        <h4><STRONG>R$799,90</STRONG></h4>
+      </div>
+</div><br>
+<footer class="container-fluid text-center">
+  <p><a href="https://br.puma.com/termos-e-condicoes-de-uso.html"class="link">Termos e condições</a></p>
+</footer>
+</body>
+</html>
