@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <h2>Formulário de entrega</h2>
-
 <form action="/action_page.php">
 <fieldset>    
     <legend><b>Dados pessoais</b></legend>
@@ -15,8 +13,7 @@
   <li><label for="email">E-mail:</label></li>
   <input type="email" id="email" placeholder="Ex: joasilva@gmail.com"><br>
   <li><label for ="tel" >Telefone:</label><br></li>
-  <input type="number" id="tel" placeholder="Ex: 00 00000-0000"><br>
-  
+  <input type="number" id="tel" placeholder="Ex: 00 00000-0000"><br>  
 </ol>    
 </fieldset>
 </form>
@@ -31,7 +28,5 @@
 </ol>
 </fieldset>
 </form> 
-
-
 </body>
 </html>
